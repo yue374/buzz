@@ -32,6 +32,8 @@ jobs:
           LINKS: ${{ vars.links }}
           LINKS01: ${{ vars.links01 }}
           LINKS02: ${{ vars.links02 }}
+          LINKS03: ${{ vars.links03 }}
+          LINKS04: ${{ vars.links04 }}
       
       - name: Check disk space after download
         run: |
